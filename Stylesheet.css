@@ -1,0 +1,51 @@
+
+body {
+    background-color: rgb(221, 180, 126);
+}
+h1 {
+    color: rgb(16, 16, 85);
+    font-family: fantasy;
+}
+nav ul li{ 
+    
+    display: inline;
+    margin-right: 25px;
+    color: rgb(93, 93, 156);
+}
+#ul1{
+    text-align: center;
+}
+#img1 { 
+     
+    display: block;
+    margin: 0 auto;
+     
+}
+h2{
+    margin-left: 30px;
+    color: rgb(13, 13, 71);
+    font-family: fantasy;
+}
+#ul2 {
+    color: rgb(12, 12, 19);
+    font-weight: bold;
+
+}
+h5 {
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(114, 23, 79);
+}
+#ul3{
+    text-align: center;
+    
+}
+a{
+    color: saddlebrown;
+}
+footer ul li {
+    color: rgb(93, 93, 156);
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+}
