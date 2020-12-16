@@ -19,11 +19,11 @@ nav ul li{
      
     display: block;
     margin: 0 auto;
-     
+    
 }
 h2{
     margin-left: 30px;
-    color: rgb(13, 13, 71);
+    color: rgba(13, 13, 71);
     font-family: fantasy;
 }
 #ul2 {
@@ -34,7 +34,8 @@ h2{
 h5 {
     text-align: center;
     text-decoration: underline;
-    color: rgb(114, 23, 79);
+    color: rgba(114, 23, 79);
+    float: ;
 }
 #ul3{
     text-align: center;
