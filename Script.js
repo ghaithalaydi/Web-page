@@ -1,4 +1,5 @@
 alert("Welcome aboard");
+
 let Clienttyp = prompt("Are you and organization or a business?");
 
 while (Clienttyp !== "business" && Clienttyp !== "organization") {
@@ -7,20 +8,21 @@ while (Clienttyp !== "business" && Clienttyp !== "organization") {
 clientrating();
 function clientrating() {
     let Rating = prompt("How many stars would you give our website(1-5)");
-    while (Rating > 5 || Rating <= 0 || NaN(Rating)) {
-        rate = prompt("kindly enter a number between 1-5");
+    while (Rating > 5 && Rating <= 0) {
+        Rating = prompt("kindly enter a number between 1-5");
     }
-    return rate
+    return Rating;
 }
 
 let showrating = function () {
-    let img2 = <img src="images/star2.png" />;
+    let img2 = '<img src="images/star2.png" />';
     let Ratings = clientrating();
     let result = "";
-    for (let i = 1; i < Ratings; i++) {
+    for (let i = 1; i <= Ratings; i++) {
         result = result + "  " + img2;
     }
-    return result;
+
+    document.write(result);
 }
 
 // function Clienttell(Clienttyp) {
